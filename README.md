@@ -6,7 +6,7 @@ Este guia fornece instruções sobre como configurar e executar a aplicação, c
 
 # Backend
 Pré-requisitos
-Node.js: Certifique-se de ter o Node.js instalado. Você pode baixá-lo em nodejs.org.
+Node.js: Certifique-se de ter o Node.js instalado. Você pode baixá-lo em [nodejs.org.](https://nodejs.org./en)
 Configuração
 Abra um terminal e navegue até o diretório do backend.
 
