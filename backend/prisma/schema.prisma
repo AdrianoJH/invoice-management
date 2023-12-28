@@ -1,0 +1,19 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ExtractedInformation {
+  id                   Int      @id @default(autoincrement())
+  fileName             String
+  numeroCliente        String
+  mesReferencia        String
+  energiaEletrica      String[]
+  energiaSCEE          String[]
+  compensadaGDI        String[]
+  contribIlumPublicaMunicipal String
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
